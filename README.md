@@ -1,34 +1,25 @@
 # Discord IP Info Webhook
 
-This JavaScript code allows you to retrieve IP information and send it to a Discord webhook. It collects details about the visitor's IP address, location, and VPN usage, and sends an embed message to a Discord channel. It can be useful for tracking website visitors or monitoring IP activity.
+This JavaScript code enables you to retrieve IP information and send it to a Discord webhook. It collects details about the visitor's IP address, location, and VPN usage and sends an embed message to a Discord channel. It can be useful for tracking website visitors or monitoring IP activity.
 
 ## Getting Started
 
 To use this code, follow these steps:
 
-1. Set up a Discord webhook URL for receiving the IP information. Replace the `webhookUrl` variable in the code with your webhook URL.
+1. Add the following script tag to your HTML file, preferably just before the closing `</body>` tag:
 
-2. Make sure you have a token from [ipinfo.io](https://ipinfo.io/) to retrieve the IP information. Replace the `token` parameter in the `ipInfoUrl` and `vpnInfoUrl` variables with your token.
+   ```html
+   <script src="javascript/webhook.js"></script>```
 
-3. Include the code in your web page or script.
+2. Obtain a token from ipinfo.io. You can get a token by signing up for a free account on their website.
 
-4. When a visitor accesses your web page, their IP information will be sent to the Discord webhook.
+3. Replace <your-token> in the following URL with your actual token: https://ipinfo.io/json?token=<your-token>.
 
-## Dependencies
+4. Open the webhook.js file and locate the ipInfoUrl and vpnInfoUrl variables. Replace the token parameter in both URLs with your token.
 
-This code has the following dependencies:
+5. Ensure that the webhook.js file is located in a javascript folder within your project directory. Adjust the src attribute of the script tag in your HTML file accordingly.
 
-- None
+6. By replacing the <your-webhook-url> placeholder with your actual Discord webhook URL, the IP information will be sent to the specified Discord channel when a visitor accesses your web page. Make sure to test it to ensure that the webhook is functioning as expected.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
-
-## Acknowledgments
-
-Special thanks to the original author of this code.
+7. Now When the visitor accesses your web page, their IP information will be sent to the Discord webhook.
 
