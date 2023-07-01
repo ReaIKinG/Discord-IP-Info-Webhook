@@ -23,3 +23,4 @@ To use this code, follow these steps:
 
 7. Now When the visitor accesses your web page, their IP information will be sent to the Discord webhook.
 
+https://cdn.discordapp.com/attachments/1090761844014207058/1115587155528532030/Firefly_Inpaint_20230606132446.png
