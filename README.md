@@ -23,5 +23,5 @@ To use this code, follow these steps:
 
 7. Now When the visitor accesses your web page, their IP information will be sent to the Discord webhook.
 
-![Example Webhook Massage]([image_url](https://cdn.discordapp.com/attachments/1091947661944426558/1124703953884561528/image.png)https://cdn.discordapp.com/attachments/1091947661944426558/1124703953884561528/image.png)
+![Image](https://cdn.discordapp.com/attachments/1091947661944426558/1124703953884561528/image.png)
 
