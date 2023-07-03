@@ -9,7 +9,7 @@ To use this code, follow these steps:
 1. Add the following script tag to your HTML file, preferably just before the closing `</body>` tag:
 
    ```html
-   <script src="javascript/webhook.js"></script>
+   <script src="webhook.js"></script>
 
 2. Obtain a token from ipinfo.io. You can get a token by signing up for a free account on their website.
 
